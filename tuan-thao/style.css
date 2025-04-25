@@ -99,13 +99,13 @@
   }
   
   /* Hiệu ứng fade-up */
-  .lb-time, .lb-add, .timeline, .in-fe, .container-check, .inp-ten, .lb-text, #loi-chuc{
+  .lb-time, .lb-add, .timeline, .in-fe, .container-check, .inp-ten, .lb-text, #loi-chuc, .add2{
     transform: translateY(50px);
     opacity: 0;
     transition: transform 0.5s, opacity 0.5s;
   }
   
-  .lb-time.visible, .lb-add.visible, .timeline.visible, .in-fe.visible, .container-check.visible, .inp-ten.visible, .lb-text.visible, #loi-chuc.visible{
+  .lb-time.visible, .lb-add.visible, .timeline.visible, .in-fe.visible, .container-check.visible, .inp-ten.visible, .lb-text.visible, #loi-chuc.visible, .add2.visible{
     transform: translateY(0);
     opacity: 1;
   }
